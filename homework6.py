@@ -15,11 +15,11 @@ print('Deleted value: ', a)
 print('Modified dictionary: ',my_dict)
 
 #Работа с множествами
-my_set = {20,23,20,24,28,25,23,20,21,20,21,23}
+my_set = {20,23,20, 'Елена', 23, 'Мария', 'Елена'}
 print('Set: ', my_set)
 #Добавление 2-х произвольных элемента
 my_set.add(29)
 my_set.add(30)
 #Удаление элемента
-my_set.remove(21)
+my_set.remove('Елена')
 print('Modified set: ', my_set)
